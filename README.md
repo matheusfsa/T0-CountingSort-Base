@@ -80,8 +80,17 @@ Compiling & Running
 
 After you have accepted this assignment on the course's GitHub Classroom page,
 clone it to your machine. First you have to generate the build system using
-[CMake](https://cmake.org/). Make sure you have it installed! Then, run the
-following commands:
+[CMake](https://cmake.org/). Make sure you have it installed! You will also need
+an OpenMP compatible compiler. If you use Linux, you are good to go. For MacOS
+users, you can install the OpenMP libraries via [Homebrew](https://brew.sh/)
+with the following command:
+
+```bash
+# Only for MacOS users
+brew install openmp
+```
+
+Then, run the following commands:
 
 ```bash
 # Where the build will live
