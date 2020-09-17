@@ -87,7 +87,7 @@ with the following command:
 
 ```bash
 # Only for MacOS users
-brew install openmp
+brew install libomp
 ```
 
 Then, run the following commands:
