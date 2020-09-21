@@ -37,6 +37,9 @@ int main(int argc, char *argv[]) {
 
   scanf("%d", &nt);
 
+  // Do not change this line
+  omp_set_num_threads(nt);
+
   // Read the number of elements
   scanf("%d", &n);
 
